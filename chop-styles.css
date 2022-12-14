@@ -1,0 +1,75 @@
+/* shame: 9D2D19, FF431A, CCCB3E */
+:root {
+    --chop-color-dark: #AC1E06 !important;
+    --chop-color-mid: #E83E00 !important;
+    --chop-color-light: #F9E4D9 !important;
+}
+
+.chop-header,
+.chop-footer {
+    background-color: var(--chop-color-dark) !important;
+}
+
+.chop-section-odd {
+    background-color: white !important;
+}
+
+.chop-section-even {
+    background-color: var(--chop-color-light) !important;
+}
+
+/* header text */
+.sqsrte-text-color--lightAccent,
+.sqs-block-image .design-layout-card .image-title * {
+    color: var(--chop-color-dark) !important;
+}
+
+.thumb-image .loaded {
+    background-color: var(--chop-color-light) !important;
+}
+
+/* all text for homepage middle sections */
+.sqs-block-image .design-layout-card .image-subtitle * {
+    color: var(--chop-color-dark) !important;
+}
+
+/* middle buttons */
+#siteWrapper .sqs-button-element--primary,
+#siteWrapper .header-actions-action--cta .sqs-button-element--primary {
+    font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: var(--chop-color-dark);
+    border-color: var(--chop-color-dark);
+}
+
+#siteWrapper .sqs-button-element--primary:hover,
+#siteWrapper .header-actions-action--cta .sqs-button-element--primary:hover {
+    background-color: var(--chop-color-light);
+}
+
+/* header/footer buttons */
+#siteWrapper .sqs-button-element--secondary,
+#siteWrapper .header-actions-action--cta .sqs-button-element--primary {
+    font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: white;
+    border-color: white;
+}
+
+#siteWrapper .sqs-button-element--secondary:hover,
+#siteWrapper .header-actions-action--cta .sqs-button-element--primary:hover {
+    background-color: var(--chop-color-mid);
+}
+
+
+.header-title-logo:hover img.chop-primary {
+    display: none;
+}
+
+.header-title-logo img.chop-alt {
+    visibility: hidden;
+    display: none;
+}
+
+.header-title-logo:hover img.chop-alt {
+    visibility: visible;
+    display: block;
+}
