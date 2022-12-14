@@ -60,16 +60,16 @@
 }
 
 
-.header-title-logo:hover img.chop-primary {
+.header-display-desktop .header-title-logo:hover img.chop-primary {
     display: none;
 }
 
-.header-title-logo img.chop-alt {
+.header-display-desktop .header-title-logo img.chop-alt {
     visibility: hidden;
     display: none;
 }
 
-.header-title-logo:hover img.chop-alt {
+.header-display-desktop .header-title-logo:hover img.chop-alt {
     visibility: visible;
     display: block;
 }
