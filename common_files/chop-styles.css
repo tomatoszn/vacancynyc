@@ -73,3 +73,8 @@
     visibility: visible;
     display: block;
 }
+
+/* footer contact info */
+.sqs-block.html-block.sqs-block-html {
+    display: flex; align-items: center; justify-content: center;
+}
