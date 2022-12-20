@@ -76,23 +76,58 @@
 
 /* footer contact info */
 .sqs-block.html-block.sqs-block-html {
-    display: flex; align-items: center; justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
 /* Make homepage text full width on mobile */
-@media (max-width: 900px) {
+@media only screen and (max-width: 900px) {
     .sqs-block-image .design-layout-card:not(.sqs-narrow-width) {
         flex-direction: column !important;
-    }   
+    }
+
     .sqs-block-image .design-layout-card:not(.sqs-narrow-width)>div:first-child {
         width: 100% !important;
     }
+
     .image-card-wrapper {
         width: 100% !important;
     }
+
     .sqs-block-image .design-layout-card:not(.sqs-narrow-width).image-position-left .image-card-wrapper {
         margin-left: auto;
     }
 }
 
+/* Instagram gallery */
+.ts-ig-gallery {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px;
+}
+
+.ts-ig-gallery .ts-ig-column {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.ts-ig-square {
+    flex-basis: 350px;
+}
+
+.ts-ig-square img {
+    width: 100%;
+    border-radius: 5px;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media only screen and (min-width: 768px) {
+    .ts-ig-gallery {
+        flex-direction: row;
+    }
+}
